@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python DAER",
+            "type": "python",
+            "request": "launch",
+            "program": "object_trackerv.py",
+            "args": ["--video", "./data/video/oclusao_01.mp4", "--output", "./outputs/demo.avi", " --model yolov4" ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
